@@ -18,8 +18,11 @@ SearchServer search_server("and with"s);
 search_server.AddDocument(id, text, DocumentStatus::ACTUAL, {1, 2});
 ```
 id - идентификатор добавляемого документа, должен быть уникальным
+
 text - строка содержащая документ
+
 DocumentStatus::ACTUAL - статус документа
+
 {1, 2} - массив оценок пользователей
 
 Запрос к серверу:

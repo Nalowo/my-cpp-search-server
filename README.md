@@ -14,7 +14,7 @@ SearchServer search_server("and with"s);
 
 На вход подается:
 
-````C++
+```C++
 search_server.AddDocument(id, text, DocumentStatus::ACTUAL, {1, 2});
 ```
 id - идентификатор добавляемого документа, должен быть уникальным

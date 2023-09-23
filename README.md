@@ -17,9 +17,9 @@ SearchServer search_server("and with"s);
 ```C++
 search_server.AddDocument(id, text, DocumentStatus::ACTUAL, {1, 2});
 ```
-id - идентификатор добавляемого документа, должен быть уникальным \n
-text - строка содержащая документ \n
-DocumentStatus::ACTUAL - статус документа \n
+id - идентификатор добавляемого документа, должен быть уникальным <\br>
+text - строка содержащая документ <\br>
+DocumentStatus::ACTUAL - статус документа <\br>
 {1, 2} - массив оценок пользователей
 
 Запрос к серверу:

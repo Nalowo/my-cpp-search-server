@@ -15,6 +15,6 @@ struct Document { // структура в которой хранятся ре�
 
     int id = 0;
     double relevance = 0;
-    int rating = 0; // тут хранится рейтинг
-    DocumentStatus satus = DocumentStatus::IRRELEVANT; // для хранения актуальности
+    int rating = 0;
+    DocumentStatus satus = DocumentStatus::IRRELEVANT;
 };

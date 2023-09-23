@@ -24,7 +24,7 @@ DocumentStatus::ACTUAL - статус документа
 
 Запрос к серверу:
 
-````C++
+```C++
 search_server.FindTopDocuments("curly -nasty cat"s);
 ```
 
